@@ -12,7 +12,109 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2> HTML</h2> </section>
+        <ul> 
+          <li> head element contains info about webpage </li>
+          <li> body element represents visible content shown to user</li>
+          <li> style element defines the css styles associated with website </li>
+          <li> base element define base URL for a webpage </li>
+          <li> link element connects an external rsource to the HTML document</li>
+          <li> meta element defines metadata such as the character set, description, keywords, author, and viewport</li>
+          <li> script element embeds client-side scripts in the HTML document</li>
+          <li> div elemnt creates a division in the page</li>
+          <li> span element creates an inline division</li>
+          <li> h1 - h6 elements represent level of heading a given text block represents</li>
+          <li> p element represents a paragraph or block of text</li>
+          <li> ul, ol, and li elements represent unordered lists, ordered list, and list items</li>
+          <li> img element contains information about images that are displayed on a webpage</li>
+          <li> br element creates a line of empty space </li>
+          <li> a element, or anchor, creates links to the same webpage or other webpages</li>
+          <li> src attribute defines location, or source, of an image flie</li>
+          <li> alt attribute conatins a text string that describes the appearance and functionality of the image </li>
+          <li> alt text is important for screen readers and other assitive technologies</li>
+          <li> footer elemtn appears ath bottom of page and usually contains author, copoyright, contact, sitemap, and navigation </li>
+          <li> section elements are semantic elements that define a section ina document that contains thematic content</li>
+
+
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+      <ul>
+        <li> CSS notes here</li>
+      </ul> 
+    </section>
+   
+      <section class="card" id="git-section">
+        <h2>GIT</h2> 
+      <ul> 
+        <h3> stage and snapshot</h3>
+        <li>git status: checks what branch we are currently on</li>
+        <li>git add [file]: add a file as it looks now to your next commit</li>
+        <li>git reset [file]: unstage a file wile retaining changes in working directory</li>
+        <li>git diff: diff of what is changed but not staged</li>
+        <li>git diff - - staged: diff of what is staged but not committed</li>
+        <li>git commit -m "[descriptive message]": commit your staged content as a new commit snapshot</li>
+        
+        <h3>Setup</h3>
+        <li>git config - -global user.name "[firstname lastname]": set a anme thats indetifiable for credit when review version history</li>
+        <li>git config - -globale user.email "[valid-email]": set an email address that will be associated with each history maker</li>
+        <li>git config - -global color.ui auto: set automatic command line coloring for Git for easy reviweing</li>
+        
+        <h3> setup & init </h3>
+        <li>git init: intialize an exisiting directory as a git repository</li>
+        <li>git clone [url]: retrieve an entire repo from hosted location via URL</li>
+
+        <h3>Branch & Merge</h3>
+        <li>git branch: list your branches.a* will appear next to the currently active branch</li>
+        <li>git branch [branch-name]: create a new branch at the current commit</li>
+        <li>git checkout: switch to another branch and check it out into your working directory</li>
+        <li>git merge [branch]: merge specified branch's history into current one </li>
+        <li> git log: show all commits in the current branch's history</li>
+
+        <h3>inspect & ompare</h3>
+        <li>git log: show commit history for currently active branch</li>
+        <li>git log branchB. .branchA: show the commits on branchA that are not on branchB</li>
+        <li>git log - -folloq [file]: show commits that change file, even across renames</li>
+        <li>git diff branchB. . .branchA: show the diff of what is in branchA that is not in branchB</li>
+        <li>git show [SHA]: show any obkject in git in human-readablke format</li>
+        
+        <h3> tracking path changes</h3>
+        <li>git rm [file]: delete the file from project and stage the removal for commit</li>
+        <li>git mv [existing-path] [new-path]: change an existing file path and stage the move</li>
+        <li> git - -stat -M: show all commit logs with indication of any paths that moved</li>
+        
+        <h3> share & update</h3>
+        <li>git remote add [alias] [url]: add a git URL as an alias</li>
+        <li>git fetch [alias]: fetch down all the branches from Git remote</li>
+        <li>git merge [alias]/[branch]: merge a remote branch into your current branch to bring it up to date</li>
+        <li>git push [alias] [branch]: transmit local branch commits to the remot repository branch</li>
+        <li>git pull: fetch and merge any commits from the tracking remote branch</li>
+
+        <h3> Rewrite history</h3>
+        <li>git rebase [branch]: apply any commits of current branch ahead of specified one</li>
+        <li> git reset - -hard [commit]: clear staging area, rewrite working tree from specified commit</li>
+        
+        <h3>Temporary commit</h3>
+        <li>git stash: save modified and stage changes</li>
+        <li>git stash list: list stack-order of stashed file changes</li>
+        <li>git stash pop: write working from top of stast stack</li>
+        <li>git stash drop: discard the changes from top of stash stack</li>
+
+
+
+
+      </ul>
+    </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+      <ul>
+        <li>JavaScript notes here</li>
+      </ul> 
+    </section>
     </main>
 
     <footer>
