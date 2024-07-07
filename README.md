@@ -1,6 +1,5 @@
 # prework-study-guide
 study guide for bootcamp coursework
-# <Your-Project-Title>
 
 ## Description
 
